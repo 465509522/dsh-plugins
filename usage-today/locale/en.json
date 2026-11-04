@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Today's Usage",
+    "description": "Adds a strip below the composer showing today's token usage and its estimated cost."
+  }
+}

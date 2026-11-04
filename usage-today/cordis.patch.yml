@@ -1,0 +1,17 @@
+- insert:
+    - id: usage-today
+      name: 'dsh-usage-today'
+      config:
+        currency: '¥'
+        persist: true
+        prices:
+          sn-deepseek-v4-1-flash-1017:
+            input: 2
+            cacheRead: 0.5
+            cacheWrite: 0
+            output: 8
+        defaultPrice:
+          input: 2
+          cacheRead: 0.5
+          cacheWrite: 0
+          output: 8

@@ -1,0 +1,84 @@
+{
+  "format": 1,
+  "title": { "en": "Blue Fish DSH plugins", "zh": "大肥鱼 DSH 插件" },
+  "description": {
+    "en": "Small, build-free DSH plugins: a today-usage/cost strip and a skills browser page.",
+    "zh": "两个无需构建的小插件：输入框下方的今日用量与费用、左侧栏的技能浏览器。"
+  },
+  "metadata": {
+    "categories": {
+      "usage": { "title": { "en": "Usage", "zh": "用量" } },
+      "interface": { "title": { "en": "Interface", "zh": "界面" } }
+    },
+    "labels": {
+      "no-build": { "title": { "en": "No build step", "zh": "无需构建" } },
+      "client-ui": { "title": { "en": "Web UI", "zh": "Web 界面" } }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-usage-today",
+      "title": { "en": "Today's Usage", "zh": "今日用量" },
+      "description": {
+        "en": "Shows today's token usage and its estimated cost under the composer.",
+        "zh": "在输入框下方显示今日 token 用量与按单价估算的费用。"
+      },
+      "icon": "usage-today/icon.svg",
+      "author": "465509522",
+      "homepage": "https://github.com/465509522/dsh-plugins/tree/main/usage-today",
+      "repository": {
+        "url": "https://github.com/465509522/dsh-plugins",
+        "directory": "usage-today"
+      },
+      "metadata": {
+        "category": "usage",
+        "keywords": ["usage", "tokens", "cost", "price", "用量", "费用"],
+        "labels": ["no-build", "client-ui"]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1793821731,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/465509522/dsh-plugins",
+            "commit": "0000000000000000000000000000000000000000",
+            "path": "usage-today"
+          }
+        }
+      ]
+    },
+    {
+      "name": "dsh-skill-explorer",
+      "title": { "en": "Skills Explorer", "zh": "技能浏览" },
+      "description": {
+        "en": "A Skills entry in the left sidebar: browse the live skill catalog and read each SKILL.md.",
+        "zh": "左侧栏的「技能」入口：浏览当前生效的技能目录，读每个 SKILL.md 全文。"
+      },
+      "icon": "skill-explorer/icon.svg",
+      "author": "465509522",
+      "homepage": "https://github.com/465509522/dsh-plugins/tree/main/skill-explorer",
+      "repository": {
+        "url": "https://github.com/465509522/dsh-plugins",
+        "directory": "skill-explorer"
+      },
+      "metadata": {
+        "category": "interface",
+        "keywords": ["skills", "catalog", "SKILL.md", "技能"],
+        "labels": ["no-build", "client-ui"]
+      },
+      "versions": [
+        {
+          "version": "1.0.0",
+          "publishTimestamp": 1793821731,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/465509522/dsh-plugins",
+            "commit": "0000000000000000000000000000000000000000",
+            "path": "skill-explorer"
+          }
+        }
+      ]
+    }
+  ]
+}
