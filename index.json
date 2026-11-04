@@ -38,11 +38,11 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1793821731,
+          "publishTimestamp": 1793823085,
           "source": {
             "type": "git",
             "url": "https://github.com/465509522/dsh-plugins",
-            "commit": "0000000000000000000000000000000000000000",
+            "commit": "8f9f4f64e7f258800bef7d6bd227dbf8c56fdd4d",
             "path": "usage-today"
           }
         }
@@ -70,11 +70,11 @@
       "versions": [
         {
           "version": "1.0.0",
-          "publishTimestamp": 1793821731,
+          "publishTimestamp": 1793823085,
           "source": {
             "type": "git",
             "url": "https://github.com/465509522/dsh-plugins",
-            "commit": "0000000000000000000000000000000000000000",
+            "commit": "8f9f4f64e7f258800bef7d6bd227dbf8c56fdd4d",
             "path": "skill-explorer"
           }
         }
